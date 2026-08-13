@@ -1,0 +1,30 @@
+PACKAGES=libc libcompiler_rt libbase libfatfs liblitespi liblitedram libliteeth liblitesdcard liblitesata bios
+PACKAGE_DIRS=S:\\LiteX\\litex\\litex\\soc\\software\\libc S:\\LiteX\\litex\\litex\\soc\\software\\libcompiler_rt S:\\LiteX\\litex\\litex\\soc\\software\\libbase S:\\LiteX\\litex\\litex\\soc\\software\\libfatfs S:\\LiteX\\litex\\litex\\soc\\software\\liblitespi S:\\LiteX\\litex\\litex\\soc\\software\\liblitedram S:\\LiteX\\litex\\litex\\soc\\software\\libliteeth S:\\LiteX\\litex\\litex\\soc\\software\\liblitesdcard S:\\LiteX\\litex\\litex\\soc\\software\\liblitesata S:\\LiteX\\litex\\litex\\soc\\software\\bios
+LIBS=libc libcompiler_rt libbase libfatfs liblitespi liblitedram libliteeth liblitesdcard liblitesata
+ALWAYS_LINK_LIBS=
+TRIPLE=--not-found--
+CPU=vexriscv
+CPUFAMILY=riscv
+CPUFLAGS=-march=rv32i2p0_m     -mabi=ilp32 -D__vexriscv__
+CPUENDIANNESS=little
+CLANG=0
+CPU_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\cores\\cpu\\vexriscv
+SOC_DIRECTORY=S:\\LiteX\\litex\\litex\\soc
+PICOLIBC_DIRECTORY=S:\\LiteX\\pythondata-software-picolibc\\pythondata_software_picolibc\\data
+PICOLIBC_FORMAT=integer
+LIBC_MODE=minimal
+COMPILER_RT_DIRECTORY=S:\\LiteX\\pythondata-software-compiler_rt\\pythondata_software_compiler_rt\\data
+export BUILDINC_DIRECTORY
+BUILDINC_DIRECTORY=S:\\Capstone_soc\\SoC-\\soc\\build\\software\\include
+LIBC_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\libc
+LIBCOMPILER_RT_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\libcompiler_rt
+LIBBASE_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\libbase
+LIBFATFS_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\libfatfs
+LIBLITESPI_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\liblitespi
+LIBLITEDRAM_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\liblitedram
+LIBLITEETH_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\libliteeth
+LIBLITESDCARD_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\liblitesdcard
+LIBLITESATA_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\liblitesata
+BIOS_DIRECTORY=S:\\LiteX\\litex\\litex\\soc\\software\\bios
+LTO=0
+BIOS_CONSOLE_FULL=1
